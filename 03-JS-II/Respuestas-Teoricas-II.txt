@@ -1,0 +1,18 @@
+* `for`
+  El bucle for nos ayuda a resolver expresiones una y otra vez hasta alcanzar lo que estamos buscando
+
+  El bucle for tiene 3 componentes, el primero es una variable que debemos declarar sobre la cual se repetirá el bucle, luego tendremos una expresión condicional que se repetirá hasta que esa declaración sea False y por último tendremos la forma en la que se incrementa nuestra variable, la 3 declaraciones se separan por un punto y coma.
+    ejemplo 
+      for (let i=o ; i=10 ; i++)
+
+* `&&`, `||`, `!`
+  Estos símbolos se conocen como operadores lógicos, que nos proporcionan un resultado a partir de que se cumpla o no cierta condición.
+
+  el símbolo & es el operador And, se escribe con dos símbolos && y nos devuelve un resultado true si ambas expresiones se cumplen.
+
+  el símbolo | es el operador OR, se escribe con 2 barras verticales y nos devuelve true si una de las 2 expresiones o ambas se cumplen.
+
+  el símbolo ! es el operador NOT, se escribe con 1 solo signo de exclamación y dicho operador nos devuelve el valor contrario del valor booleano que se cumpla.
+
+
+npm test JSII.test.js

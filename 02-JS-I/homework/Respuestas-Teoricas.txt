@@ -1,0 +1,42 @@
+Variables:
+  Las variables las utlizamos para almacenar un valor para usar en el futuro. Para hacerlo en JavaScript utilizaremos palabras claves (y reservadas del idioma) como son , var let y const. 
+
+  Luego de la palabra clave ira un espacio y el nombre de la misma. Podemos tambien asinarle un valor usando el signo =.
+
+  Ejemplo 
+    var nombre = 'Henry';
+
+Strings
+  Las strings son bloques de texto, se definen entre comillas ya sea simples o dobles.
+
+  Ejemplo 
+    var nombreAlumno = 'Jere';
+
+
+
+Funciones (argumentos, return)
+  Cuando estudiamos lenguajes de programacion el profesor Tralice en su teorico dijo que es importante no escribir codigo que diga 2 veces lo mismo, las funciones nos ayudan a resolver esto.
+
+  Son tipos particulares de objetos, llamados objetos invocables, las mismas empezaran con la palabra clave function (la cual le indicara al compilador que lo que sigue es una funcion), un nombre de la dicha funcion un juego de parentesis  y al final una apertura de corchetes, dentro de estos corchetes ira nuestra codigo a ejecutar
+
+  Ejemplo 
+    function logHello () {
+      console.log('Hello Hello');
+    }
+    logHello();
+
+
+Declaraciones if
+  La declaracion if, es una palabra clave que forma parte del operador de control de flujo y comparacion. La palabra if le dira a la funcion que si ese requisito se cumple, se debe avanzar a la siguiente operacion, de no hacerlo debemos establecer que camino debe tomar nuestra funcion 
+
+  Ejemplo 
+    if (Clima = "Frio" ){
+      Return 'Poner Campera';
+    }
+
+
+Valores booleanos (true, false)
+  Los valores booleanos true o false, nos sirven para significar verdadero o falso, prendido o apagado, 1 o 0, nos ayudan a resolver situaciones que tengamos 2 opciones.
+
+  Ejemplo 
+    var soyViejoParaEstudiar = false;

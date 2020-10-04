@@ -1,0 +1,6 @@
+Array
+
+Un Array es una lista de elementos, el arreglo se define con brackets y lo elementos se colocan dentro de ellos separados por coma.
+
+Ejemplos 
+  const nombresLenguajes = [java, javascript, cobol, c++];

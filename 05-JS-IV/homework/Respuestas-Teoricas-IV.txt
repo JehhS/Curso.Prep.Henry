@@ -1,0 +1,43 @@
+Objetos
+  Un objeto es una colección de propiedades, y una propiedad es una asociación entre un nombre (o key) y un valor.
+  Las propiedades de un objeto definen las características del objeto.
+    Ejemplo
+      var miAuto = {
+        fabrica: 'Ford',
+        modelo: 'Focus',
+        anio: 1980
+      }
+   
+Propiedades
+  un objeto de Javascript triene propiedades asociadas a el. Una propiedad de un objeto se puede explicar con una variable adjunta al objeto, y estas tienen un nexo con el objeto. Ellas definen las caracteristicas de un objeto.
+    Ejemplo
+        nombreObjeto.porpiedadEdad
+
+Métodos
+  Cuando el valor de una propiedad es una funcion el objeto se conoce como metodo.
+     ejemplo 
+        var miObjeto = {
+           miMetodo: function(parametro) {
+            
+           }
+        };
+
+Bucle for…in
+  El bucle for in, itera una variable especificada sobre todas las propiedades enumerables de un objeto. Para cada propiedad distinta, JavaScript ejecuta las instrucciones especificadas.
+
+
+
+Notación de puntos vs notación de corchetes
+  Las propiedades de un objeto definen las características del objeto. Podemos Acceder a las propiedades de un objeto con una simple notación de puntos
+  La notación de puntos es más rápida de escribir y más clara de leer.
+    ejemplo 
+      objetoNombre.propiedadNombre
+
+  También puedes acceder o establecer las propiedades de los objetos en JavaScript mediante la notación de corchetes []
+  La notación de corchete cuadrado permite el acceso a properties que contienen caracteres especiales y la selección de properties mediante variables.
+    ejemplo
+      miAuto['fabrica']  = 'Ford';
+      miAuto['modelo'] = 'Focus';
+
+
+

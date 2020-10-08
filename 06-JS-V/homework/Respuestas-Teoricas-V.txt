@@ -1,0 +1,15 @@
+Prototype
+  Javascript tiene un diseño basado en prototipos,  todos los objetos de javascript tiene una referencia a otro objeto que es llamado su prototipo.
+  Para evitar el codigo repetitivo (dry) y para evitar el mal gasto de memoria podemos ayudarnos usando prototipos.
+  Las clases tienen una forma única de establecer un método una vez y dar acceso a cada objeto de esa clase a esos métodos. Esto se llama el prototype
+
+    ejemplo 
+      function Alumno(nombre, github) {
+    this.nombre = nombre;
+    this.github = github;
+    }
+
+Alumno.prototype.cuenta = function(){
+    return 'Mi nombre es ' + this.nombre + ', mi usuario de Github es ' + this.github + '.';
+
+Constructors (de Clases)
